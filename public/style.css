@@ -1,0 +1,63 @@
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #92914e;
+    background-color: #2a1818;
+  }
+  
+  /* Styling for the main heading */
+  h1 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for section headings */
+  h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for paragraphs */
+  p {
+    margin-bottom: 10px;
+  }
+  
+  /* Remove default list styles and adjust margin */
+  ul {
+    list-style-type: none;
+    margin: 0;
+  }
+  
+  /* Adjust margin for list items */
+  li {
+    margin-bottom: 5px;
+  }
+  
+  /* Styling for anchor tags */
+  a {
+    text-decoration: none;
+    color: #dce8ab;
+  }
+  
+  /* Styling for images */
+  img {
+    max-width: 100%;
+    border-radius: 20%;
+    height: 137px;
+    margin-top: -69px;
+    float: right;
+    margin-right: 50rem;
+  }
+  
+  /* Styling for the footer */
+  footer {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    margin-right: 30rem;
+  }

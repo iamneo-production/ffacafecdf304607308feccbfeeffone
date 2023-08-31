@@ -1,0 +1,56 @@
+<!-- Enter your code here -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Resume</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+      const skills = document.querySelectorAll('.skill-rating');
+      skills.forEach(skill => {
+        const rating = skill.dataset.rating;
+        const stars = '⭐️'.repeat(rating);
+        skill.textContent = stars;
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <h1 id="name">Jane Doe</h1>
+  <h2 id="role">Business Administrator</h2>
+  <img src="https://appbrewery.github.io/capstone-1-example/profile-img.png" alt="profile image of Jane Doe" height="100">
+
+  <h2 style="margin-top: 9rem;">Summary</h2>
+  <p>I am a hardworking and dedicated individual with experience in customer service and administration.</p>
+  <hr />
+  <h2>Education</h2>
+  <ul>
+    <li>Bachelor of Arts, Business Administration - University of XYZ (2010-2014)</li>
+  </ul>
+  <hr />
+  <h2>Skills</h2>
+  <ul class="skills">
+    <li>Customer service: <span class="skill-rating" data-rating="2"></span></li>
+    <li>Microsoft Office Suite: <span class="skill-rating" data-rating="4"></span></li>
+    <li>Organizational skills: <span class="skill-rating" data-rating="6"></span></li>
+  </ul>
+  <hr />
+  <h2>Awards and Certifications</h2>
+  <ul>
+    <li>Employee of the Month - ABC Inc. (August 2016)</li>
+  </ul>
+  <hr />
+  <h2>Other</h2>
+  <ul>
+    <li><a href="./hobbies.html">My Hobbies</a></li>
+    <li><a href="./contact.html">Contact Me</a></li>
+  </ul>
+  <footer>
+    <p>© Jane Doe. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
